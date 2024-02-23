@@ -23,9 +23,15 @@ position: relative;
 .text-color{
     color: red;
 }
-.new-year-photo-style{
-
-}
 .photo-description{
     font-size: 30px;
+}
+.victorrr-image-text{
+   color: blue;
+   bottom: 25px;
+   top: 50%;
+}
+.image{
+    position: absolute;
+    top: 50%;
 }
