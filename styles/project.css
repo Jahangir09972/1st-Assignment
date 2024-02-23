@@ -1,0 +1,15 @@
+/* cover page styles */
+.cover-image{
+width: 1320px;
+height: 600px;
+position: relative;
+}
+.cover-image-text{
+    position: absolute;
+    top: 5%;
+    padding: 5px 80px 10px 440px;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    line-height: 0%;
+}
