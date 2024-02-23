@@ -13,3 +13,19 @@ position: relative;
     text-align: center;
     line-height: 0%;
 }
+
+.photo{
+    width: 803px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+.text-color{
+    color: red;
+}
+.new-year-photo-style{
+
+}
+.photo-description{
+    font-size: 30px;
+}
