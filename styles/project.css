@@ -3,11 +3,12 @@
 width: 1320px;
 height: 600px;
 position: relative;
+background-color: rgba(0, 0, 0, 0.7);
 }
 .cover-image-text{
     position: absolute;
     top: 5%;
-    padding: 5px 80px 10px 440px;
+    padding: 10px 10px 10px 450px;
     color: aliceblue;
     font-size: 50px;
     text-align: center;
@@ -26,12 +27,70 @@ position: relative;
 .photo-description{
     font-size: 30px;
 }
-.victorrr-image-text{
-   color: blue;
-   bottom: 25px;
-   top: 50%;
+
+/* Style for the figure containing the image and caption */
+figure {
+    position: relative;
+    margin: 0;
+    margin-bottom: 30px;
 }
-.image{
+
+/* Style for the image */
+figure img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline styles */
+}
+
+/* Style for the caption */
+figcaption {
     position: absolute;
-    top: 50%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
 }
+
+/* Style for the caption text */
+figcaption h6,
+figcaption h2,
+figcaption h3 {
+    margin: 0;
+}
+
+/* Additional styles for the text in the caption */
+figcaption h6 {
+    font-size: 14px;
+}
+
+figcaption h2 {
+    font-size: 24px;
+}
+
+figcaption h3 {
+    font-size: 18px;
+}
+
+.join-tags{
+    background-color: darkorange;
+    font-size: 20px;
+}
+.main-page-style{
+    line-height: 10px;
+    text-align: center;
+    width: 1320px 482px;
+    background-color: bisque;
+    background-size: 90;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.image-cover{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
